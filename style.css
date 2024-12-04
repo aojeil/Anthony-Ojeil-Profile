@@ -1,0 +1,115 @@
+/* General Styles *//* General Styles */
+body {
+    background: linear-gradient(135deg, #eeeeee, #d6d6d6); /* Light grey gradient background */
+    color: #333333; /* Dark grey text color */
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 3.5rem;
+    color: #000000; /* Solid black for the main header */
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+    color: #4a4a4a; /* Medium grey for section headings */
+    margin-top: 30px;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #666666; /* Light grey for text content */
+    text-align: center;
+}
+
+/* Profile Picture */
+.my-profile-picture {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+/* LinkedIn Link */
+.linkedin-container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.linkedin-link {
+    font-size: 1.2rem;
+    color: #ffffff; /* White text for contrast */
+    background: #333333; /* Dark grey button */
+    padding: 8px 16px;
+    border: 2px solid #333333;
+    border-radius: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.linkedin-link:hover {
+    background: #000000; /* Black hover effect */
+    color: #ffffff;
+}
+
+/* List Links */
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 20px 0;
+}
+
+ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+ul li a {
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff; /* White text */
+    background-color: #4a4a4a; /* Medium grey for buttons */
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+ul li a:hover {
+    background-color: #333333; /* Dark grey hover effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle hover shadow */
+}
+
+/* Container */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ffffff; /* White container background */
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #4a4a4a; /* Medium grey footer text */
+}
+
